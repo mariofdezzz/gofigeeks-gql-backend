@@ -1,5 +1,6 @@
 import './env'
 
+import { renderApolloSandbox } from '@graphql-yoga/render-apollo-sandbox'
 import { createYoga } from 'graphql-yoga'
 import { createServer } from 'node:http'
 import { schema } from './graphql/schema'
@@ -16,6 +17,11 @@ const yoga = createYoga({
 			headers: ctx.request.headers,
 		}
 	},
+	renderGraphiQL: renderApolloSandbox({
+		initialState: {
+			includeCookies: true,
+		},
+	}),
 })
 
 const server = createServer(yoga)

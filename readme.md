@@ -59,7 +59,7 @@ npm run dev
 
 Si estas usando vscode, se recomienda usar `F5` para iniciar el debugger, en lugar de `npm run dev`.
 
-El servidor estará disponible en `http://localhost:4000/graphql`. En este enlace dispondras de un playground de graphql, aunque yo recomiendo usar [Apollo](https://studio.apollographql.com/sandbox/explorer) o Postman.
+El servidor estará disponible en `http://localhost:4000/graphql`. En este enlace dispondras de un playground de graphql, aunque también puedes usar Postman si lo prefieres.
 
 
 ## 🔧 Scripts disponibles

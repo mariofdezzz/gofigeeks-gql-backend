@@ -21,6 +21,7 @@
     "@graphql-tools/load-files": "7.0.1",
     "@graphql-tools/schema": "10.0.33",
     "@graphql-tools/utils": "11.1.0",
+    "@graphql-yoga/render-apollo-sandbox": "0.7.2",
     "@supabase/supabase-js": "2.108.2",
     "better-auth": "1.6.19",
     "dataloader": "2.2.3",
