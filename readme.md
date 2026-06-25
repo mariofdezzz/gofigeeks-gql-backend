@@ -131,7 +131,7 @@ El proyecto utiliza **Better-Auth** para gestionar:
 
 Si no quieres usar supabase, puedes utilizar una base de datos sqlite que no requiere instalacion en tu ordenador. Y para el almacenamiento de archivos, sustituir las llamadas a supabase por escrituras en una carpeta dentro de tu proyecto, por ejemplo `/public`. Este sistema no funcionará en la mayoría de los cloud hosting.
 
-Para usar sqlite, debes cambiar el adaptador de drizzle por el de [sqlite](https://orm.drizzle.team/docs/get-started/sqlite-new).
+Para usar sqlite, debes cambiar el adaptador de drizzle por el de [sqlite](https://orm.drizzle.team/docs/get-started/node-sqlite-new).
 
 
 ## Empieza el workshop
